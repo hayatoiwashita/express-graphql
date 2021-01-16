@@ -4,9 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "nodemon ./bin/www",
-    "fmt": "prettier --write **/*.{js,json,md}",
-    "linter": "eslint --fix"
+    "dev": "nodemon ./bin/www"
   },
   "husky": {
     "hooks": {
